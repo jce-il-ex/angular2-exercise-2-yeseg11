@@ -1,3 +1,8 @@
-<p>
-  nav-menu works!
-</p>
+<div  class = 'box'>   <!--ngIf is like if in java .-->
+  {{item.id }},
+  <span *ngIf="item.txt">
+  <input [value]="item.txt">  <!-- anther way to call data from class [] to take from class  -->
+  </span>
+  <button (click)= "myFunc()">hello {{item.id}}</button>  <!-- () to send to class  -->
+  </span>
+</div>

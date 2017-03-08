@@ -7,6 +7,24 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavItemComponent implements OnInit {
 
+myList = [
+{
+  id:1,
+  txt: 'hello im 1' 
+},
+{
+  id:2,
+  txt: 'hello im 2' 
+},
+{
+  id:3 
+},
+{
+  id:4,
+  txt: 'hello im 4' 
+}
+];
+
   constructor() { }
 
   ngOnInit() {
