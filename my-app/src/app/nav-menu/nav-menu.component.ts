@@ -12,9 +12,11 @@ export class NavMenuComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+
   }
-  myFunc(){
-    console.log('child: '+this.item.id);
+
+  myFunc() {
+    console.log('child: ' + this.item.id);
   }
 
 }

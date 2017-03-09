@@ -17,7 +17,8 @@ myList = [
   txt: 'hello im 2' 
 },
 {
-  id:3 
+  id:3 ,
+  txt: 'hello im 2'
 },
 {
   id:4,
